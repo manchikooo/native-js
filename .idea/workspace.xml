@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9aa11ea-2ec1-4e32-82fc-96788420d999" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson4/index4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson4/main4.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson4/index4.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5-sortOfArray/index5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson4/main4.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5-sortOfArray/main5.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -57,6 +57,7 @@
       <recent name="$PROJECT_DIR$/lesson4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lesson5-sortOfArray" />
       <recent name="$PROJECT_DIR$/lesson3" />
     </key>
   </component>
@@ -70,7 +71,8 @@
       <updated>1638115062079</updated>
       <workItem from="1638115063288" duration="10816000" />
       <workItem from="1638171543953" duration="2434000" />
-      <workItem from="1638720347112" duration="7067000" />
+      <workItem from="1638720347112" duration="8373000" />
+      <workItem from="1639065901349" duration="7685000" />
     </task>
     <servers />
   </component>
