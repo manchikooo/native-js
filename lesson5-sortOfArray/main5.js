@@ -9,21 +9,6 @@ for (let i = 0; arr.length; i++) {
 }
 console.log(sortArr1)
 
-
-// function sortOfArray(newArr) {
-//     let sortedArr = []
-//     for (let i = 0; i < newArr.length; i++) {
-//         for (let j = i + 1; j < newArr.length; j++) {
-//             if (newArr[i] < newArr[j]) {
-//                 sortedArr.push(newArr[i])
-//             } else continue
-//         }
-//         return sortedArr
-//     }
-// }
-//
-// console.log(sortOfArray([1, 10, 2, 5, 7, 3]))
-
 // ПОНЯТНЫЙ
 function sort(arr) {
     let newArr = [];
