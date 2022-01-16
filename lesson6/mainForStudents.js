@@ -37,6 +37,17 @@ const students = [
     },
 ];
 
+// 14. Д.З.:
+// Напишите функцию addFriends, которая принимает параметром массив students
+// и добавляет каждому студенту свойство "friends",
+// значением которого является массив имён всех остальных студентов из массива students,
+// за исключением собственного имени студента. Т.е. в друзьях у Боба Боба быть не должно.
+const addFriends = (students) => {
+    return students.map(s => ({...s, friends: students.map(st => st.name).filter(name => name !== s.name).join(', ')}))
+}
+console.log(addFriends(students));
+
+
 const user = {
     name: "Bob",
     age: 23,
@@ -193,7 +204,7 @@ for (let i = 0; i < students.length; i++) {
     if (students[i].scores > best1.scores) {
         best1 = students[i]
 
-    } else  if (students[i].scores > best2.scores ){
+    } else if (students[i].scores > best2.scores) {
         best2 = students[i]
     }
 }
@@ -207,15 +218,7 @@ console.log(students)
 
 let scoresSum;
 console.log(scoresSum)
-// 14. Д.З.:
-// Напишите функцию addFriends, которая принимает параметром массив students
-// и добавляет каждому студенту свойство "friends",
-// значением которого является массив имён всех остальных студентов из массива students,
-// за исключением собственного имени студента. Т.е. в друзьях у Боба Боба быть не должно.
-const addFriends = (students) => {
-    //..............................
-}
-console.log(addFriends(students));
+
 
 
 
